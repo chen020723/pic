@@ -191,7 +191,20 @@ a {
     padding: 0px;
 }
 
-
+@font-face {
+    font-family:'yuanru';
+    src:url('https://cdn.jsdelivr.net/gh/chen020723/pic@master/img/圆润字体SJFYT.ttf'); /* 修改成你的字体 */
+    font-display:swap
+}
+h1#site-title {
+    font-family:yuanru!important
+}
+span#subtitle {
+    font-family:yuanru!important
+}
+a#site-name {
+    font-family:yuanru!important
+}
 
 
 /*--------------------下面是暂时用不到的css样式--------------------*/
